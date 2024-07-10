@@ -14,14 +14,16 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-        <Navbar />
-        <Hero />
-        <About />
-        <Tech />
-        <Experience />
-        <MyProjects />
-        <Contact />
-        <Footer />
+        <div className="relative z-0 bg-primary">
+          <Navbar />
+          <Hero />
+          <About />
+          <Tech />
+          <Experience />
+          <MyProjects />
+          <Contact />
+          <Footer />
+        </div>
       </BrowserRouter>
     </>
   );

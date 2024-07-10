@@ -13,6 +13,26 @@
   color-scheme: dark;
 }
 
+/* Navbar styles */
+
+.active {
+  position: fixed;
+  top: 0px;
+  transition: 0.2s linear;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  z-index: 40;
+}
+.hidden_navbar {
+  z-index: 40;
+  position: fixed;
+  top: -80px;
+  transition: 0.2s linear;
+}
+
+/* End of Navbar styles */
+
 @keyframes mulShdSpin {
   0%,
   100% {
