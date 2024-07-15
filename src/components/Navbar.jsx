@@ -39,9 +39,11 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${visible ? "active" : "hidden_navbar"}  ${
+      className={`fixed z-40 py-5 px-6 w-full bg-primary/[0.85] transition-all duration-400 ${
+        visible ? "top-0" : "-top-80"
+      } justify-center items-center ${
         applyBlur ? "backdrop-filter backdrop-blur-md" : ""
-      } w-full py-5 px-6 top-0 z-20 bg-primary/[0.85]`}
+      } `}
     >
       <div className="w-full sm:grid sm:grid-cols-2 flex max-w-7xl mx-auto">
         <div>

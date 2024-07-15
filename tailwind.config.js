@@ -20,6 +20,10 @@ module.exports = {
         xs: "430px",
       },
     },
+    backdropFilter: {
+      none: "none",
+      blur: "blur(20px)",
+    },
   },
   plugins: [],
 };
