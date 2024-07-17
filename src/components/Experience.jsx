@@ -34,9 +34,9 @@ const Experience = () => {
               {steps.map((step, index) => {
                 let color = currentIndex === index ? "#53CED0" : "#cbd5e1";
                 let backgroundColor =
-                  currentIndex === index ? "#080b19" : "#050816";
+                  currentIndex === index ? "#0c0f1d" : "#080b19";
                 let borderColor =
-                  currentIndex === index ? "#53CED0" : "#050816";
+                  currentIndex === index ? "#53CED0" : "#080b19";
 
                 return (
                   <div
