@@ -15,11 +15,11 @@ const Alert = ({ message, duration }) => {
     return () => clearInterval(interval);
   }, [duration]);
   return (
-    <div className="fixed bottom-12 right-4 bg-[#33313a] text-slate-300 text-[14px] sm:text-[15px] md:text-[17px] font-medium px-5 py-3 sm:py-4 rounded-xl shadow-md z-1000">
+    <div className="fixed bottom-12 right-4 bg-darkCyan text-slate-300 text-[14px] sm:text-[15px] md:text-[17px] font-medium px-5 py-3 sm:py-4 rounded-xl shadow-md z-1000">
       <div>{message}</div>
       <div className="bg-primary h-1 mt-1 rounded-3xl">
         <div
-          className="bg-[#33313a] h-full"
+          className="bg-darkCyan h-full"
           style={{
             width: `${progress}%`,
             transition: "width 2s ease-in-out",

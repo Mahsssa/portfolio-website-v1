@@ -32,11 +32,16 @@ const Experience = () => {
           <div className="overflow-x-auto sm:overflow-hidden sm:col-span-2 md:col-span-2 lg:col-span-2">
             <div className="w-[520px] sm:w-full flex flex-row sm:flex-col border border-slate-800 border-2 border-t-0 border-l-0 border-r-0 border-b-1 sm:border sm:border-2 sm:border-t-0 sm:border-l-0 sm:border-r-1 sm:border-b-0 hover:cursor-pointer">
               {steps.map((step, index) => {
+                // let color = currentIndex === index ? "cyan" : "#cbd5e1";
                 let color = currentIndex === index ? "#53CED0" : "#cbd5e1";
+
+                // let backgroundColor = currentIndex === index ? "tertiary" : "primary";
                 let backgroundColor =
-                  currentIndex === index ? "#0c0f1d" : "#080b19";
+                  currentIndex === index ? "#05121f" : "#010F1B";
+
+                // let borderColor = currentIndex === index ? "cyan" : "primary";
                 let borderColor =
-                  currentIndex === index ? "#53CED0" : "#080b19";
+                  currentIndex === index ? "#53CED0" : "#010F1B";
 
                 return (
                   <div
