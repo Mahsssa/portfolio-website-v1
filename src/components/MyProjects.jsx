@@ -18,7 +18,7 @@ const ProjectCard = ({
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.6, 1)}>
       <div className="bg-tertiary p-4 sm:p-6 rounded-xl w-full sm:w-[550px]  border border-slate-800">
-        <div className="relative w-full h-[200px]">
+        <div className="relative w-full h-[260px]">
           <img
             src={image}
             alt="project_image"
@@ -82,6 +82,16 @@ const MyProjects = () => {
       <motion.div variants={textVariant()}>
         <h2 className={styles.sectionHeadText}>Projects</h2>{" "}
       </motion.div>
+      <div className="w-full flex">
+        <motion.p
+          variants={fadeIn("", "", 0.3, 1)}
+          className={`${styles.sectionSubText} mt-5 max-w-3xl`}
+        >
+          The following projects demonstrate my skills and experience. Each
+          project includes a brief description, along with links to the code
+          repositories and live demos.
+        </motion.p>
+      </div>
 
       <div className="mt-10 flex flex-wrap gap-9">
         {projects.map((project, index) => (
