@@ -21,6 +21,7 @@ import postgres from "./tech/postgres.png";
 import postgis from "./tech/postgis.png";
 import gdal from "./tech/gdal.png";
 import git from "./tech/git.png";
+import docker from "./tech/docker.png";
 
 import numpy from "./tech/numpy.png";
 import pandas from "./tech/pandas.png";
@@ -57,6 +58,7 @@ export {
   geoserver,
   gdal,
   git,
+  docker,
   numpy,
   pandas,
   geopandas,
